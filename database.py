@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 URI = os.getenv("URI")
-print(URI)
+
 #client = MongoClient("URI")
 client = MongoClient("mongodb+srv://admin:james@cluster0.ujzjm.mongodb.net/todoapp?retryWrites=true&w=majority")
 # database and collection code goes here
