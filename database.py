@@ -6,8 +6,7 @@ load_dotenv()
 
 URI = os.getenv("URI")
 
-#client = MongoClient("URI")
-client = MongoClient("mongodb+srv://admin:james@cluster0.ujzjm.mongodb.net/todoapp?retryWrites=true&w=majority")
+client = MongoClient("URI")
 # database and collection code goes here
 db = client.todoapp
 coll = db.trains
